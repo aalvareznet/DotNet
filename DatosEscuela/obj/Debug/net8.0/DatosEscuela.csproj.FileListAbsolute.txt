@@ -1,0 +1,15 @@
+H:\Progra\Git\DotNet\DatosEscuela\bin\Debug\net8.0\DatosEscuela.deps.json
+H:\Progra\Git\DotNet\DatosEscuela\bin\Debug\net8.0\DatosEscuela.runtimeconfig.json
+H:\Progra\Git\DotNet\DatosEscuela\bin\Debug\net8.0\DatosEscuela.dll
+H:\Progra\Git\DotNet\DatosEscuela\bin\Debug\net8.0\DatosEscuela.pdb
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.csproj.AssemblyReference.cache
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.GeneratedMSBuildEditorConfig.editorconfig
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.AssemblyInfoInputs.cache
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.AssemblyInfo.cs
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.csproj.CoreCompileInputs.cache
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.sourcelink.json
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.dll
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\refint\DatosEscuela.dll
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.pdb
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\DatosEscuela.genruntimeconfig.cache
+H:\Progra\Git\DotNet\DatosEscuela\obj\Debug\net8.0\ref\DatosEscuela.dll

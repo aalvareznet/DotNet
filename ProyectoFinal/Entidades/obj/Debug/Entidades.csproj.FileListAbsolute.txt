@@ -1,0 +1,6 @@
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\bin\Debug\Entidades.dll
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\bin\Debug\Entidades.pdb
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\obj\Debug\Entidades.dll
+H:\Progra\Git\DotNet\ProyectoFinal\Entidades\obj\Debug\Entidades.pdb
