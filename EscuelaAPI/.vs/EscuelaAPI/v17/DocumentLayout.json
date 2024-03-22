@@ -3,23 +3,8 @@
   "WorkspaceRootPath": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0513DD9E-D01F-40F4-8CB9-30ED8B8CEAB4}|..\\DatosEscuela\\DatosEscuela.csproj|h:\\progra\\git\\dotnet\\datosescuela\\entidades\\estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|h:\\progra\\git\\dotnet\\escuelaapi\\dtos\\estudiantes\\estudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|solutionrelative:dtos\\estudiantes\\estudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|h:\\progra\\git\\dotnet\\escuelaapi\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|h:\\progra\\git\\dotnet\\escuelaapi\\dtos\\estudiantes\\editarestudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|solutionrelative:dtos\\estudiantes\\editarestudiantesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|h:\\progra\\git\\dotnet\\escuelaapi\\dtos\\materias\\editarmateriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAAF52AA-B384-46AA-9A79-160CECBEB6AA}|EscuelaAPI.csproj|solutionrelative:dtos\\materias\\editarmateriasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Estudiantes.cs",
-              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\Entidades\\Estudiantes.cs",
-              "RelativeDocumentMoniker": "..\\DatosEscuela\\Entidades\\Estudiantes.cs",
-              "ToolTip": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\Entidades\\Estudiantes.cs",
-              "RelativeToolTip": "..\\DatosEscuela\\Entidades\\Estudiantes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:00:57.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EstudiantesDto.cs",
-              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Estudiantes\\EstudiantesDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Estudiantes\\EstudiantesDto.cs",
-              "ToolTip": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Estudiantes\\EstudiantesDto.cs",
-              "RelativeToolTip": "DTOs\\Estudiantes\\EstudiantesDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:00:48.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditarEstudiantesDto.cs",
-              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Estudiantes\\EditarEstudiantesDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Estudiantes\\EditarEstudiantesDto.cs",
-              "ToolTip": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Estudiantes\\EditarEstudiantesDto.cs",
-              "RelativeToolTip": "DTOs\\Estudiantes\\EditarEstudiantesDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:51:29.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditarMateriasDto.cs",
-              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Materias\\EditarMateriasDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Materias\\EditarMateriasDto.cs",
-              "ToolTip": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\DTOs\\Materias\\EditarMateriasDto.cs",
-              "RelativeToolTip": "DTOs\\Materias\\EditarMateriasDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:50:34.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EstudianteController.cs",
               "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\Controllers\\EstudianteController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
               "ToolTip": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\Controllers\\EstudianteController.cs",
               "RelativeToolTip": "Controllers\\EstudianteController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwCQAAAAkAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAmwG8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:37:48.081Z",
+              "WhenOpened": "2024-03-22T03:18:38.553Z",
               "EditorCaption": ""
             }
           ]
