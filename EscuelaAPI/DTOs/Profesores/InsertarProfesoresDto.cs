@@ -1,6 +1,6 @@
 ﻿namespace EscuelaAPI.DTOs.Profesores
 {
-    public class InsertarProfesorDto
+    public class InsertarProfesoresDto
     {
         public string? Nombre { get; set; }
         public string? Apellido1 { get; set; }
