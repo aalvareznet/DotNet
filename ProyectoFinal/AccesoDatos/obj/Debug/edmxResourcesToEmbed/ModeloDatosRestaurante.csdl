@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModeloRestaurante" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TREST_CLIENTES">
+    <Key>
+      <PropertyRef Name="TN_IdCliente" />
+    </Key>
+    <Property Name="TN_IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TC_Nombre" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TC_Ap1" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TC_Ap2" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tc_NumTelefonico" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TC_CorreoElectronico" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TREST_RESERVACION" Relationship="Self.FK_TREST_RESERVACION_TREST_CLIENTES" FromRole="TREST_CLIENTES" ToRole="TREST_RESERVACION" />
+  </EntityType>
+  <EntityType Name="TREST_MENU">
+    <Key>
+      <PropertyRef Name="TN_IdMenu" />
+    </Key>
+    <Property Name="TN_IdMenu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TC_DscMenu" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TN_IdTipoMenu" Type="Int32" Nullable="false" />
+    <Property Name="TD_Precio" Type="Decimal" Precision="19" Scale="2" Nullable="false" />
+    <NavigationProperty Name="TREST_TIPOMENU" Relationship="Self.FK_TREST_MENU_TREST_TIPOMENU" FromRole="TREST_MENU" ToRole="TREST_TIPOMENU" />
+    <NavigationProperty Name="TREST_RESERVACION" Relationship="Self.FK_TREST_RESERVACION_TREST_MENU" FromRole="TREST_MENU" ToRole="TREST_RESERVACION" />
+  </EntityType>
+  <EntityType Name="TREST_MESAS">
+    <Key>
+      <PropertyRef Name="TN_IdMesa" />
+    </Key>
+    <Property Name="TN_IdMesa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TC_DscMesa" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TREST_RESERVACION" Relationship="Self.FK_TREST_RESERVACION_TREST_MESAS" FromRole="TREST_MESAS" ToRole="TREST_RESERVACION" />
+  </EntityType>
+  <EntityType Name="TREST_RESERVACION">
+    <Key>
+      <PropertyRef Name="TN_NumReservacion" />
+    </Key>
+    <Property Name="TN_NumReservacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TN_IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="TN_IdMesa" Type="Int32" Nullable="false" />
+    <Property Name="TN_IdMenu" Type="Int32" Nullable="false" />
+    <Property Name="TN_Cantidad" Type="Int32" Nullable="false" />
+    <Property Name="TF_FecReserva" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="TREST_CLIENTES" Relationship="Self.FK_TREST_RESERVACION_TREST_CLIENTES" FromRole="TREST_RESERVACION" ToRole="TREST_CLIENTES" />
+    <NavigationProperty Name="TREST_MENU" Relationship="Self.FK_TREST_RESERVACION_TREST_MENU" FromRole="TREST_RESERVACION" ToRole="TREST_MENU" />
+    <NavigationProperty Name="TREST_MESAS" Relationship="Self.FK_TREST_RESERVACION_TREST_MESAS" FromRole="TREST_RESERVACION" ToRole="TREST_MESAS" />
+  </EntityType>
+  <EntityType Name="TREST_TIPOMENU">
+    <Key>
+      <PropertyRef Name="TN_IdTipoMenu" />
+    </Key>
+    <Property Name="TN_IdTipoMenu" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tc_DscTipoMenu" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="TREST_MENU" Relationship="Self.FK_TREST_MENU_TREST_TIPOMENU" FromRole="TREST_TIPOMENU" ToRole="TREST_MENU" />
+  </EntityType>
+  <Association Name="FK_TREST_RESERVACION_TREST_CLIENTES">
+    <End Role="TREST_CLIENTES" Type="Self.TREST_CLIENTES" Multiplicity="1" />
+    <End Role="TREST_RESERVACION" Type="Self.TREST_RESERVACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TREST_CLIENTES">
+        <PropertyRef Name="TN_IdCliente" />
+      </Principal>
+      <Dependent Role="TREST_RESERVACION">
+        <PropertyRef Name="TN_IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TREST_MENU_TREST_TIPOMENU">
+    <End Role="TREST_TIPOMENU" Type="Self.TREST_TIPOMENU" Multiplicity="1" />
+    <End Role="TREST_MENU" Type="Self.TREST_MENU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TREST_TIPOMENU">
+        <PropertyRef Name="TN_IdTipoMenu" />
+      </Principal>
+      <Dependent Role="TREST_MENU">
+        <PropertyRef Name="TN_IdTipoMenu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TREST_RESERVACION_TREST_MENU">
+    <End Role="TREST_MENU" Type="Self.TREST_MENU" Multiplicity="1" />
+    <End Role="TREST_RESERVACION" Type="Self.TREST_RESERVACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TREST_MENU">
+        <PropertyRef Name="TN_IdMenu" />
+      </Principal>
+      <Dependent Role="TREST_RESERVACION">
+        <PropertyRef Name="TN_IdMenu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TREST_RESERVACION_TREST_MESAS">
+    <End Role="TREST_MESAS" Type="Self.TREST_MESAS" Multiplicity="1" />
+    <End Role="TREST_RESERVACION" Type="Self.TREST_RESERVACION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TREST_MESAS">
+        <PropertyRef Name="TN_IdMesa" />
+      </Principal>
+      <Dependent Role="TREST_RESERVACION">
+        <PropertyRef Name="TN_IdMesa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EntidadesRestaurante" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TREST_CLIENTES" EntityType="Self.TREST_CLIENTES" />
+    <EntitySet Name="TREST_MENU" EntityType="Self.TREST_MENU" />
+    <EntitySet Name="TREST_MESAS" EntityType="Self.TREST_MESAS" />
+    <EntitySet Name="TREST_RESERVACION" EntityType="Self.TREST_RESERVACION" />
+    <EntitySet Name="TREST_TIPOMENU" EntityType="Self.TREST_TIPOMENU" />
+    <AssociationSet Name="FK_TREST_RESERVACION_TREST_CLIENTES" Association="Self.FK_TREST_RESERVACION_TREST_CLIENTES">
+      <End Role="TREST_CLIENTES" EntitySet="TREST_CLIENTES" />
+      <End Role="TREST_RESERVACION" EntitySet="TREST_RESERVACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TREST_MENU_TREST_TIPOMENU" Association="Self.FK_TREST_MENU_TREST_TIPOMENU">
+      <End Role="TREST_TIPOMENU" EntitySet="TREST_TIPOMENU" />
+      <End Role="TREST_MENU" EntitySet="TREST_MENU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TREST_RESERVACION_TREST_MENU" Association="Self.FK_TREST_RESERVACION_TREST_MENU">
+      <End Role="TREST_MENU" EntitySet="TREST_MENU" />
+      <End Role="TREST_RESERVACION" EntitySet="TREST_RESERVACION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TREST_RESERVACION_TREST_MESAS" Association="Self.FK_TREST_RESERVACION_TREST_MESAS">
+      <End Role="TREST_MESAS" EntitySet="TREST_MESAS" />
+      <End Role="TREST_RESERVACION" EntitySet="TREST_RESERVACION" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

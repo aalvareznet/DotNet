@@ -1,0 +1,15 @@
+H:\Progra\Git\DotNet\DB\bin\Debug\net8.0\DB.deps.json
+H:\Progra\Git\DotNet\DB\bin\Debug\net8.0\DB.runtimeconfig.json
+H:\Progra\Git\DotNet\DB\bin\Debug\net8.0\DB.dll
+H:\Progra\Git\DotNet\DB\bin\Debug\net8.0\DB.pdb
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.sourcelink.json
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.dll
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\refint\DB.dll
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.pdb
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
+H:\Progra\Git\DotNet\DB\obj\Debug\net8.0\ref\DB.dll

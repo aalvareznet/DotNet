@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModeloRestauranteStoreContainer" CdmEntityContainer="EntidadesRestaurante">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ModeloRestaurante.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TREST_CLIENTES">
+      <EntityTypeMapping TypeName="ModeloRestaurante.TREST_CLIENTES">
+        <MappingFragment StoreEntitySet="TREST_CLIENTES">
+          <ScalarProperty Name="TN_IdCliente" ColumnName="TN_IdCliente" />
+          <ScalarProperty Name="TC_Nombre" ColumnName="TC_Nombre" />
+          <ScalarProperty Name="TC_Ap1" ColumnName="TC_Ap1" />
+          <ScalarProperty Name="TC_Ap2" ColumnName="TC_Ap2" />
+          <ScalarProperty Name="Tc_NumTelefonico" ColumnName="Tc_NumTelefonico" />
+          <ScalarProperty Name="TC_CorreoElectronico" ColumnName="TC_CorreoElectronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TREST_MENU">
+      <EntityTypeMapping TypeName="ModeloRestaurante.TREST_MENU">
+        <MappingFragment StoreEntitySet="TREST_MENU">
+          <ScalarProperty Name="TN_IdMenu" ColumnName="TN_IdMenu" />
+          <ScalarProperty Name="TC_DscMenu" ColumnName="TC_DscMenu" />
+          <ScalarProperty Name="TN_IdTipoMenu" ColumnName="TN_IdTipoMenu" />
+          <ScalarProperty Name="TD_Precio" ColumnName="TD_Precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TREST_MESAS">
+      <EntityTypeMapping TypeName="ModeloRestaurante.TREST_MESAS">
+        <MappingFragment StoreEntitySet="TREST_MESAS">
+          <ScalarProperty Name="TN_IdMesa" ColumnName="TN_IdMesa" />
+          <ScalarProperty Name="TC_DscMesa" ColumnName="TC_DscMesa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TREST_RESERVACION">
+      <EntityTypeMapping TypeName="ModeloRestaurante.TREST_RESERVACION">
+        <MappingFragment StoreEntitySet="TREST_RESERVACION">
+          <ScalarProperty Name="TN_NumReservacion" ColumnName="TN_NumReservacion" />
+          <ScalarProperty Name="TN_IdCliente" ColumnName="TN_IdCliente" />
+          <ScalarProperty Name="TN_IdMesa" ColumnName="TN_IdMesa" />
+          <ScalarProperty Name="TN_IdMenu" ColumnName="TN_IdMenu" />
+          <ScalarProperty Name="TN_Cantidad" ColumnName="TN_Cantidad" />
+          <ScalarProperty Name="TF_FecReserva" ColumnName="TF_FecReserva" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TREST_TIPOMENU">
+      <EntityTypeMapping TypeName="ModeloRestaurante.TREST_TIPOMENU">
+        <MappingFragment StoreEntitySet="TREST_TIPOMENU">
+          <ScalarProperty Name="TN_IdTipoMenu" ColumnName="TN_IdTipoMenu" />
+          <ScalarProperty Name="Tc_DscTipoMenu" ColumnName="Tc_DscTipoMenu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

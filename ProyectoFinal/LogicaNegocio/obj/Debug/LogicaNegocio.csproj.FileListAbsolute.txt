@@ -1,0 +1,14 @@
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\AccesoDatos.dll
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\Entidades.dll
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\EntityFramework.dll
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\Entidades.pdb
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\bin\Debug\EntityFramework.xml
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\obj\Debug\LogicaNe.53575492.Up2Date
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+H:\Progra\Git\DotNet\ProyectoFinal\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
