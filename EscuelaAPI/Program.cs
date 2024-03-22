@@ -20,11 +20,11 @@ var app = builder.Build();
 
 //Comentar lo siguiente una vez usado
 
-using (var scope = app.Services.CreateScope()) 
-{
-    var context = scope.ServiceProvider.GetRequiredService<ContextoEscuela>();
-    context.Database.Migrate();
-}
+//using (var scope = app.Services.CreateScope()) 
+//{
+//    var context = scope.ServiceProvider.GetRequiredService<ContextoEscuela>();
+//    context.Database.Migrate();
+//}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
