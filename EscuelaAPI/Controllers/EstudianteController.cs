@@ -28,5 +28,29 @@ namespace EscuelaAPI.Controllers
                 Seccion = e.Seccion,
                 ProfesorGuiaId = e.ProfesorGuiaID
             }).ToListAsync();
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<EstudiantesDto>> GetById(int id) 
+        {
+            var estudiante = await _context.Estudiantes.FindAsync(id);
+
+            if (estudiante == null) 
+            {
+                return NotFound();
+            }
+
+            var estudianteDto = new EstudiantesDto
+            {
+                Id = estudiante.Id,
+                Nombre = estudiante.Nombre,
+                Apellido1 = estudiante.Apellido1,
+                Apellido2 = estudiante.Apellido2,
+                Grado = estudiante.Grado,
+                Seccion = estudiante.Seccion,
+                ProfesorGuiaId = estudiante.ProfesorGuiaID
+            };
+
+            return Ok(estudianteDto);
+        }
     }
 }
