@@ -120,7 +120,7 @@ namespace EscuelaAPI.Controllers
             {
                 return NotFound();
             }
-
+            
             _context.Estudiantes.Remove(estudiante);
             await _context.SaveChangesAsync();
 

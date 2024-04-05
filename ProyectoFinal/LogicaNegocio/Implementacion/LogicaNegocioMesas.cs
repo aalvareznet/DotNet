@@ -13,7 +13,7 @@ namespace LogicaNegocio.Implementacion
 {
     public class LogicaNegocioMesas : ILogicaNegocioMesas
     {
-        public static EntidadesRestaurante entidad;
+        public static EntidadesRestaurante entidad = new EntidadesRestaurante();
         private readonly IAccesoDatosMesas _entidad = new AccesoDatosMesas(entidad);
 
         public bool agregarMesa(TREST_MESAS mesa)
