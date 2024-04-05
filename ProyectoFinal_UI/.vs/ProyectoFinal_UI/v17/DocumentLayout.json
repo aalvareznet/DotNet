@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\connected services\\srvtipomenu\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:connected services\\srvtipomenu\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\connected services\\srvreservaciones\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:connected services\\srvreservaciones\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\connected services\\srvmesas\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:connected services\\srvmesas\\mesascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\connected services\\srvmenu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:connected services\\srvmenu\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\connected services\\srvclientes\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:connected services\\srvclientes\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoMenuController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvTipoMenu\\TipoMenuController.cs",
+              "RelativeDocumentMoniker": "Connected Services\\srvTipoMenu\\TipoMenuController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvTipoMenu\\TipoMenuController.cs",
+              "RelativeToolTip": "Connected Services\\srvTipoMenu\\TipoMenuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:53:41.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservacionesController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvReservaciones\\ReservacionesController.cs",
+              "RelativeDocumentMoniker": "Connected Services\\srvReservaciones\\ReservacionesController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvReservaciones\\ReservacionesController.cs",
+              "RelativeToolTip": "Connected Services\\srvReservaciones\\ReservacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:53:30.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MesasController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvMesas\\MesasController.cs",
+              "RelativeDocumentMoniker": "Connected Services\\srvMesas\\MesasController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvMesas\\MesasController.cs",
+              "RelativeToolTip": "Connected Services\\srvMesas\\MesasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:53:17.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvMenu\\MenuController.cs",
+              "RelativeDocumentMoniker": "Connected Services\\srvMenu\\MenuController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvMenu\\MenuController.cs",
+              "RelativeToolTip": "Connected Services\\srvMenu\\MenuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:53:02.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvClientes\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Connected Services\\srvClientes\\ClientesController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Connected Services\\srvClientes\\ClientesController.cs",
+              "RelativeToolTip": "Connected Services\\srvClientes\\ClientesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T21:52:21.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwv1cAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-05T21:46:24.661Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

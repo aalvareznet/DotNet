@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="4ac9eaf4-6acd-4e24-8ce3-5fd4f471f76d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61599/srvMesas.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvMesas.xsd" MetadataType="Schema" ID="503279cb-f512-4189-b773-e9b8b4e48f94" SourceId="1" SourceUrl="http://localhost:61599/srvMesas.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvMesas.disco" MetadataType="Disco" ID="60815dc6-41ae-481c-8da7-95977c0c34ce" SourceId="1" SourceUrl="http://localhost:61599/srvMesas.svc?disco" />
+    <MetadataFile FileName="srvMesas1.xsd" MetadataType="Schema" ID="14733963-6200-4175-abb7-da203c3f3120" SourceId="1" SourceUrl="http://localhost:61599/srvMesas.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvMesas.wsdl" MetadataType="Wsdl" ID="696d501e-9d4c-4ce4-a6d5-87549c563e8c" SourceId="1" SourceUrl="http://localhost:61599/srvMesas.svc?wsdl" />
+    <MetadataFile FileName="srvMesas2.xsd" MetadataType="Schema" ID="7efca56d-a722-48c0-ac02-7683a1a1dd03" SourceId="1" SourceUrl="http://localhost:61599/srvMesas.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
