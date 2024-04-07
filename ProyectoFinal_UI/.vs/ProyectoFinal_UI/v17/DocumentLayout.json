@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\tipomenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\views\\menu\\obtenermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\menu\\obtenermenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,13 +30,26 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "obtenerMenu.cshtml",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Menu\\obtenerMenu.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menu\\obtenerMenu.cshtml",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Menu\\obtenerMenu.cshtml",
+              "RelativeToolTip": "Views\\Menu\\obtenerMenu.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:25:58.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MenuController.cs",
               "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
               "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MenuController.cs",
               "RelativeToolTip": "Controllers\\MenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T17:38:42.235Z",
               "EditorCaption": ""
@@ -51,7 +64,8 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:38:41.037Z"
+              "WhenOpened": "2024-04-06T17:38:41.037Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,25 +77,7 @@
               "RelativeToolTip": "Controllers\\ClientesController.cs",
               "ViewState": "AQIAAPcAAAAAAAAAAAAxwBQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T02:20:23.138Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoMenuController.cs",
-              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\TipoMenuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TipoMenuController.cs",
-              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\TipoMenuController.cs",
-              "RelativeToolTip": "Controllers\\TipoMenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:08:23.859Z",
+              "WhenOpened": "2024-04-06T02:20:23.138Z",
               "EditorCaption": ""
             }
           ]

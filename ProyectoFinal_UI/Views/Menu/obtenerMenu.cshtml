@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ProyectoFinal_UI.Models.Menu>
+
+@{
+    ViewBag.Title = "obtenerMenu";
+}
+
+<h2>obtenerMenu</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_DscMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdTipoMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TD_Precio)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TN_IdMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TC_DscMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TN_IdTipoMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TD_Precio)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
