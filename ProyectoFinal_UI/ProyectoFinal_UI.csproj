@@ -155,7 +155,7 @@
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
-    <Compile Include="Controllers\MesasController.cs" />
+    <Compile Include="Controllers\MesasControllerUI.cs" />
     <Compile Include="Controllers\ReservacionesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -318,12 +318,14 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Menu\obtenerMenu.cshtml" />
+    <Content Include="Views\Mesas\obtenerMesasUI.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Clientes\" />
-    <Folder Include="Views\Mesas\" />
+    <Folder Include="Views\MenuControllerUI\" />
+    <Folder Include="Views\Menu\" />
+    <Folder Include="Views\MesasControllerUI\" />
     <Folder Include="Views\Reservaciones\" />
     <Folder Include="Views\TipoMenu\" />
   </ItemGroup>

@@ -17,15 +17,15 @@ namespace ProyectoFinal_UI.Controllers
 
             try
             {
-                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient()) 
+                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient())
                 {
                     var lista = servicio.obtenerMesas();
-                    if (lista != null) 
+                    if (lista != null)
                     {
-                        foreach(var item in lista)
-                        { 
+                        foreach (var item in lista)
+                        {
                             mesa = new Mesas();
-                            mesa.TN_IdMesa = item.TN_IdMesa;  
+                            mesa.TN_IdMesa = item.TN_IdMesa;
                             mesa.TC_DscMesa = item.TC_DscMesa;
 
                         }
@@ -39,18 +39,18 @@ namespace ProyectoFinal_UI.Controllers
             }
             return View(listaMesas);
         }
-        public ActionResult agregarMesa() 
+        public ActionResult agregarMesa()
         {
             Mesas mesa = new Mesas();
             return View(mesa);
         }
 
-        public ActionResult modificarMesa(int idMesa) 
+        public ActionResult modificarMesa(int idMesa)
         {
             Mesas mesa = new Mesas();
             try
             {
-                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient()) 
+                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient())
                 {
                     var item = servicio.obtenerMesaID(idMesa);
                     mesa.TC_DscMesa = item.TC_DscMesa;
@@ -104,13 +104,13 @@ namespace ProyectoFinal_UI.Controllers
             return View(mesa);
         }
 
-        public ActionResult insertarMesa(Mesas mesa) 
+        public ActionResult insertarMesa(Mesas mesa)
         {
             List<Mesas> listaMesas = new List<Mesas>();
             Mesas mesaDto;
             try
             {
-                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient()) 
+                using (srvMesas.IsrvMesasClient servicio = new srvMesas.IsrvMesasClient())
                 {
                     srvMesas.TREST_MESAS servicioMesas = new srvMesas.TREST_MESAS();
                     servicioMesas.TC_DscMesa = mesa.TC_DscMesa;
@@ -139,7 +139,7 @@ namespace ProyectoFinal_UI.Controllers
 
         }
 
-        public ActionResult actualizarMesa(Mesas mesa) 
+        public ActionResult actualizarMesa(Mesas mesa)
         {
             List<Mesas> listaMesas = new List<Mesas>();
             Mesas mesaDto;
@@ -173,7 +173,7 @@ namespace ProyectoFinal_UI.Controllers
             return View("obtenerMesas", listaMesas);
         }
 
-        public ActionResult borrarMesa(Mesas mesa) 
+        public ActionResult borrarMesa(Mesas mesa)
         {
             List<Mesas> listaMesas = new List<Mesas>();
             Mesas mesaDto;
@@ -206,7 +206,7 @@ namespace ProyectoFinal_UI.Controllers
             }
             return View("obtenerMesas", listaMesas);
         }
-        public ActionResult accionesEjecucion(string accionEjecutar, Mesas mesa) 
+        public ActionResult accionesEjecucion(string accionEjecutar, Mesas mesa)
         {
             try
             {

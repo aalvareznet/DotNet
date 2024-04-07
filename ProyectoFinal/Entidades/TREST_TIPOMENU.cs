@@ -19,7 +19,7 @@ namespace Entidades
         {
             this.TREST_MENU = new HashSet<TREST_MENU>();
         }
-    
+        
         public int TN_IdTipoMenu { get; set; }
         public string Tc_DscTipoMenu { get; set; }
     
