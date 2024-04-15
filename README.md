@@ -16,7 +16,7 @@ For this proyect I used:
 - Blazor
 
 ---
-[Linkedin](https://www.linkedin.com/in/aalvarezd2201/)
+[Linkedin](https://www.linkedin.com/in/aalvarezd2201/) | 
 [Facebook](https://www.facebook.com/anthoalvarezd/)
 
 aalvarez_d@outlook.com | 
