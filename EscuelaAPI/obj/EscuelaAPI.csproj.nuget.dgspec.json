@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj": {}
+    "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj": {}
   },
   "projects": {
-    "H:\\Progra\\Git\\DotNet\\DatosEscuela\\DatosEscuela.csproj": {
+    "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\DatosEscuela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\DatosEscuela.csproj",
+        "projectUniqueName": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\DatosEscuela.csproj",
         "projectName": "DatosEscuela",
-        "projectPath": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\DatosEscuela.csproj",
-        "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\obj\\",
+        "projectPath": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\DatosEscuela.csproj",
+        "packagesPath": "C:\\Users\\aalva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aalva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,24 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj": {
+    "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj",
         "projectName": "EscuelaAPI",
-        "projectPath": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj",
-        "packagesPath": "C:\\Users\\Tony\\.nuget\\packages\\",
-        "outputPath": "H:\\Progra\\Git\\DotNet\\EscuelaAPI\\obj\\",
+        "projectPath": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\EscuelaAPI\\EscuelaAPI.csproj",
+        "packagesPath": "C:\\Users\\aalva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\EscuelaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aalva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -108,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\Progra\\Git\\DotNet\\DatosEscuela\\DatosEscuela.csproj": {
-                "projectPath": "H:\\Progra\\Git\\DotNet\\DatosEscuela\\DatosEscuela.csproj"
+              "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\DatosEscuela.csproj": {
+                "projectPath": "C:\\Users\\aalva\\Progra\\Estructuras de datos\\DotNet\\DatosEscuela\\DatosEscuela.csproj"
               }
             }
           }
@@ -118,11 +113,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -163,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
