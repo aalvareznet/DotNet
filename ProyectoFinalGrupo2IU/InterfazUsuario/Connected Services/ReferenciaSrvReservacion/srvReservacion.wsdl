@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvReservacion" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51801/srvReservacion.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51801/srvReservacion.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51801/srvReservacion.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvReservacion_obtenerReservaciones_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerReservaciones_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_obtenerReservaciones_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerReservaciones_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_obtenerReservacion_RestID_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerReservacion_RestID" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_obtenerReservacion_RestID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerReservacion_RestIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_agregarReservacion_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregarReservacion_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_agregarReservacion_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregarReservacion_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_modificarReservacion_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificarReservacion_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_modificarReservacion_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificarReservacion_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_eliminarReservacion_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarReservacion_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvReservacion_eliminarReservacion_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarReservacion_RestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvReservacion">
+    <wsdl:operation name="obtenerReservaciones_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvReservacion/obtenerReservaciones_Rest" message="tns:IsrvReservacion_obtenerReservaciones_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvReservacion/obtenerReservaciones_RestResponse" message="tns:IsrvReservacion_obtenerReservaciones_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerReservacion_RestID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvReservacion/obtenerReservacion_RestID" message="tns:IsrvReservacion_obtenerReservacion_RestID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvReservacion/obtenerReservacion_RestIDResponse" message="tns:IsrvReservacion_obtenerReservacion_RestID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregarReservacion_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvReservacion/agregarReservacion_Rest" message="tns:IsrvReservacion_agregarReservacion_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvReservacion/agregarReservacion_RestResponse" message="tns:IsrvReservacion_agregarReservacion_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificarReservacion_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvReservacion/modificarReservacion_Rest" message="tns:IsrvReservacion_modificarReservacion_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvReservacion/modificarReservacion_RestResponse" message="tns:IsrvReservacion_modificarReservacion_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminarReservacion_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvReservacion/eliminarReservacion_Rest" message="tns:IsrvReservacion_eliminarReservacion_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvReservacion/eliminarReservacion_RestResponse" message="tns:IsrvReservacion_eliminarReservacion_Rest_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvReservacion" type="tns:IsrvReservacion">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="obtenerReservaciones_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvReservacion/obtenerReservaciones_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerReservacion_RestID">
+      <soap:operation soapAction="http://tempuri.org/IsrvReservacion/obtenerReservacion_RestID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregarReservacion_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvReservacion/agregarReservacion_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificarReservacion_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvReservacion/modificarReservacion_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarReservacion_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvReservacion/eliminarReservacion_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvReservacion">
+    <wsdl:port name="BasicHttpBinding_IsrvReservacion" binding="tns:BasicHttpBinding_IsrvReservacion">
+      <soap:address location="http://localhost:51801/srvReservacion.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

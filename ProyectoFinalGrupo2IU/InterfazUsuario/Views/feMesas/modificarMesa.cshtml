@@ -1,0 +1,52 @@
+﻿@model InterfazUsuario.Models.ModeloMesas
+
+@{
+    ViewBag.Title = "Modificar Mesa";
+}
+
+<h2>Modificar Mesa</h2>
+
+
+@using (Html.BeginForm("accionesEjecucion", "feMesas", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Mesas</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group d-none">
+            @Html.LabelFor(model => model.TN_IdMesa, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10 d-none">
+                @Html.EditorFor(model => model.TN_IdMesa, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TN_IdMesa, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TC_DscMesa, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TC_DscMesa, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TC_DscMesa, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" name="accionEjecutar" value="Modificar"
+                        class="btn btn-warning" title="Modifica Mesa"
+                        data-toggle="tooltip" data-container="body" data-placement="right">
+                    Modificar
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Regresar", "obtenerMesa")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

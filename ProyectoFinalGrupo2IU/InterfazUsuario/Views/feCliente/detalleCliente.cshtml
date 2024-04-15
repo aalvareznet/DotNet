@@ -1,0 +1,66 @@
+﻿@model InterfazUsuario.Models.ModeloCliente
+
+@{
+    ViewBag.Title = "Detalles Cliente";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>ModeloCliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tc_NumTelefonico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tc_NumTelefonico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_CorreoElectronico)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarCliente", new { pId = Model.TN_IdCliente }) |
+    @Html.ActionLink("Regresar", "obtenerCliente")
+</p>

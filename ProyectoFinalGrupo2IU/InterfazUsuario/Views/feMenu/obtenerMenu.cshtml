@@ -1,0 +1,51 @@
+﻿@model IEnumerable<InterfazUsuario.Models.ModeloMenu>
+
+@{
+    ViewBag.Title = "Menu";
+}
+
+<h2>Lista de Menu</h2>
+
+<p>
+    @Html.ActionLink("Nuevo Menu", "agregarMenu")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_DscMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdTipoMenu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TD_Precio)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TN_IdMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TC_DscMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TN_IdTipoMenu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TD_Precio)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "modificarMenu", new { pId = item.TN_IdMenu }) |
+            @Html.ActionLink("Detalles", "detalleMenu", new { pId = item.TN_IdMenu }) |
+            @Html.ActionLink("Borrar", "eliminarMenu", new { pId = item.TN_IdMenu })
+        </td>
+    </tr>
+}
+
+</table>

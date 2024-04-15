@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f026a4eccb194099b730076efe965ef2" Name="Diagram1">
+        <EntityTypeShape EntityType="RestModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestModel.TREST_CLIENTES" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestModel.TREST_MENU" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestModel.TREST_MESAS" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestModel.TREST_RESERVACION" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestModel.TREST_TIPOMENU" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="RestModel.FK_TREST_RESERVACION_TREST_CLIENTES" ManuallyRouted="false" />
+        <AssociationConnector Association="RestModel.FK_TREST_MENU_TREST_TIPOMENU" ManuallyRouted="false" />
+        <AssociationConnector Association="RestModel.FK_TREST_RESERVACION_TREST_MENU" ManuallyRouted="false" />
+        <AssociationConnector Association="RestModel.FK_TREST_RESERVACION_TREST_MESAS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

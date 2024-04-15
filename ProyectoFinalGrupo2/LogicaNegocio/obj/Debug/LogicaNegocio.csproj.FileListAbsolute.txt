@@ -1,0 +1,14 @@
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\AccesoDatos.dll.config
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

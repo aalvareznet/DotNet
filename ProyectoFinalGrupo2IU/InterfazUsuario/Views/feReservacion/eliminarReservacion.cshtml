@@ -1,0 +1,77 @@
+﻿@model InterfazUsuario.Models.ModeloReservacion
+
+@{
+    ViewBag.Title = "Eliminar Reservacion";
+}
+
+<h2>Eliminar Reservacion</h2>
+
+<h3>Estas seguro de querer eliminar esta reservacion?</h3>
+<div>
+    <h4>Reservacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_NumReservacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_NumReservacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMesa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_Cantidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_Cantidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TF_FecReserva)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TF_FecReserva)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "feReservacion", FormMethod.Post)) {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.TN_NumReservacion)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="accionEjecutar" value="Borrar"
+                    class="btn btn-danger" title="Elimina Reservacion"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "obtenerReservacion")
+        </div>
+    }
+</div>

@@ -1,0 +1,66 @@
+﻿@model InterfazUsuario.Models.ModeloReservacion
+
+@{
+    ViewBag.Title = "Detalle Reservacion";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Reservacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_NumReservacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_NumReservacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMesa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_Cantidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_Cantidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TF_FecReserva)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TF_FecReserva)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarReservacion", new { pId = Model.TN_NumReservacion }) |
+    @Html.ActionLink("Regresar", "obtenerReservacion")
+</p>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="srvMesa" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51801/srvMesa.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51801/srvMesa.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51801/srvMesa.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entidades" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IsrvMesa_obtenerMesas_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerMesas_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_obtenerMesas_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerMesas_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_obtenerMesa_RestID_InputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerMesa_RestID" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_obtenerMesa_RestID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:obtenerMesa_RestIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_agregarMesa_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregarMesa_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_agregarMesa_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregarMesa_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_modificarMesa_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:modificarMesa_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_modificarMesa_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modificarMesa_RestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_eliminarMesa_Rest_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMesa_Rest" />
+  </wsdl:message>
+  <wsdl:message name="IsrvMesa_eliminarMesa_Rest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMesa_RestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IsrvMesa">
+    <wsdl:operation name="obtenerMesas_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMesa/obtenerMesas_Rest" message="tns:IsrvMesa_obtenerMesas_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMesa/obtenerMesas_RestResponse" message="tns:IsrvMesa_obtenerMesas_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerMesa_RestID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMesa/obtenerMesa_RestID" message="tns:IsrvMesa_obtenerMesa_RestID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMesa/obtenerMesa_RestIDResponse" message="tns:IsrvMesa_obtenerMesa_RestID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="agregarMesa_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMesa/agregarMesa_Rest" message="tns:IsrvMesa_agregarMesa_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMesa/agregarMesa_RestResponse" message="tns:IsrvMesa_agregarMesa_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modificarMesa_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMesa/modificarMesa_Rest" message="tns:IsrvMesa_modificarMesa_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMesa/modificarMesa_RestResponse" message="tns:IsrvMesa_modificarMesa_Rest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminarMesa_Rest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IsrvMesa/eliminarMesa_Rest" message="tns:IsrvMesa_eliminarMesa_Rest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IsrvMesa/eliminarMesa_RestResponse" message="tns:IsrvMesa_eliminarMesa_Rest_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IsrvMesa" type="tns:IsrvMesa">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="obtenerMesas_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvMesa/obtenerMesas_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerMesa_RestID">
+      <soap:operation soapAction="http://tempuri.org/IsrvMesa/obtenerMesa_RestID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregarMesa_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvMesa/agregarMesa_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modificarMesa_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvMesa/modificarMesa_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarMesa_Rest">
+      <soap:operation soapAction="http://tempuri.org/IsrvMesa/eliminarMesa_Rest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="srvMesa">
+    <wsdl:port name="BasicHttpBinding_IsrvMesa" binding="tns:BasicHttpBinding_IsrvMesa">
+      <soap:address location="http://localhost:51801/srvMesa.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

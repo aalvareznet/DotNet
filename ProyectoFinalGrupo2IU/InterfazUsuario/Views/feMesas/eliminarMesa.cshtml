@@ -1,0 +1,46 @@
+﻿@model InterfazUsuario.Models.ModeloMesas
+
+@{
+    ViewBag.Title = "Eliminar Mesa";
+}
+
+<h2>Eliminar Mesa</h2>
+
+<h3>Estas seguro de querer eliminar esta mesa?</h3>
+<div>
+    <h4>Mesa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMesa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_DscMesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_DscMesa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "feMesas", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.TN_IdMesa)
+
+<div class="form-actions no-color">
+    <button type="submit" name="accionEjecutar" value="Borrar"
+            class="btn btn-danger" title="Elimina Mesa"
+            data-toggle="tooltip" data-container="body" data-placement="right">
+        Eliminar
+    </button>  |
+    @Html.ActionLink("Regresar", "obtenerMesa")
+</div>
+    }
+</div>

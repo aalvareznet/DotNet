@@ -1,0 +1,39 @@
+﻿@model IEnumerable<InterfazUsuario.Models.ModeloMesas>
+
+@{
+    ViewBag.Title = "Mesas";
+}
+
+<h2>Mesas</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "agregarMesa")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TN_IdMesa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TC_DscMesa)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TN_IdMesa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TC_DscMesa)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "modificarMesa", new { pId = item.TN_IdMesa }) |
+            @Html.ActionLink("Detalles", "detallesMesa", new { pId = item.TN_IdMesa }) |
+            @Html.ActionLink("Borrar", "eliminarMesa", new { pId = item.TN_IdMesa })
+        </td>
+    </tr>
+}
+
+</table>

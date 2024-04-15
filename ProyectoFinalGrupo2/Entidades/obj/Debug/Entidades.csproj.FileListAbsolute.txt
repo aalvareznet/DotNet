@@ -1,0 +1,6 @@
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\bin\Debug\Entidades.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\obj\Debug\Entidades.dll
+C:\Users\aalva\OneDrive\Documentos\C#\Learn\ProyectoFinalGrupo2\Entidades\obj\Debug\Entidades.pdb

@@ -1,0 +1,50 @@
+﻿@model InterfazUsuario.Models.ModeloMenu
+
+@{
+    ViewBag.Title = "Detalles Menu";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <h4>Menu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_DscMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_DscMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdTipoMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdTipoMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TD_Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TD_Precio)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "modificarMenu", new { pId = Model.TN_IdMenu }) |
+    @Html.ActionLink("Regresar", "obtenerMenu")
+</p>

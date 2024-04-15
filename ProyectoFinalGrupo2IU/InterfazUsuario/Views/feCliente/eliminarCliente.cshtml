@@ -1,0 +1,77 @@
+﻿@model InterfazUsuario.Models.ModeloCliente
+
+@{
+    ViewBag.Title = "Eliminar Cliente";
+}
+
+<h2>Eliminar Cliente</h2>
+
+<h3>Estas seguro de que deseas eliminar este cliente?</h3>
+<div>
+    <h4>ModeloCliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_Ap2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_Ap2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tc_NumTelefonico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tc_NumTelefonico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_CorreoElectronico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_CorreoElectronico)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "feCliente", FormMethod.Post)) {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.TN_IdCliente)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="accionEjecutar" value="Borrar"
+                    class="btn btn-danger" title="Elimina Cliente"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "obtenerCliente")
+        </div>
+    }
+</div>

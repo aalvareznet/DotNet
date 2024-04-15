@@ -1,0 +1,62 @@
+﻿@model InterfazUsuario.Models.ModeloMenu
+
+@{
+    ViewBag.Title = "Eliminar Menu";
+}
+
+<h2>Eliminar Menu</h2>
+
+<h3>Estas seguro que deseas eliminar este menu?</h3>
+<div>
+    <h4>Menu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TC_DscMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TC_DscMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TN_IdTipoMenu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TN_IdTipoMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TD_Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TD_Precio)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("accionesEjecucion", "feMenu", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.TN_IdMenu)
+
+        <div class="form-actions no-color">
+            <button type="submit" name="accionEjecutar" value="Borrar"
+                    class="btn btn-danger" title="Elimina Menu"
+                    data-toggle="tooltip" data-container="body" data-placement="right">
+                Eliminar
+            </button> |
+            @Html.ActionLink("Regresar", "obtenerMenu")
+        </div>
+    }
+</div>

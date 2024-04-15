@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ace76a5b-4c52-4670-b770-731ba6b09313" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51801/srvMenu.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvMenu.wsdl" MetadataType="Wsdl" ID="4155d440-0bc2-4ae8-873a-8db612b73ec5" SourceId="1" SourceUrl="http://localhost:51801/srvMenu.svc?wsdl" />
+    <MetadataFile FileName="srvMenu.xsd" MetadataType="Schema" ID="8d9be824-d4d4-4eda-864a-622f48989868" SourceId="1" SourceUrl="http://localhost:51801/srvMenu.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvMenu1.xsd" MetadataType="Schema" ID="c233953f-7ec9-438c-955f-3e1df8df9b29" SourceId="1" SourceUrl="http://localhost:51801/srvMenu.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvMenu2.xsd" MetadataType="Schema" ID="e3e4559f-e11b-48b3-ab7e-4c2be0002b3d" SourceId="1" SourceUrl="http://localhost:51801/srvMenu.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvMenu.disco" MetadataType="Disco" ID="da6b93db-ba7e-4a3c-95d0-fbc0afa9de40" SourceId="1" SourceUrl="http://localhost:51801/srvMenu.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

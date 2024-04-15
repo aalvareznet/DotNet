@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="82dd4cfa-b644-43a4-ad16-8c10c0be8132" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51801/srvReservacion.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="srvReservacion.disco" MetadataType="Disco" ID="9d15b24f-ff27-4c70-ac10-6eed579121a4" SourceId="1" SourceUrl="http://localhost:51801/srvReservacion.svc?disco" />
+    <MetadataFile FileName="srvReservacion.xsd" MetadataType="Schema" ID="f8574472-d37f-490c-ac26-9470ce2aca21" SourceId="1" SourceUrl="http://localhost:51801/srvReservacion.svc?xsd=xsd0" />
+    <MetadataFile FileName="srvReservacion1.xsd" MetadataType="Schema" ID="0b5095cf-0de3-4930-9e01-5107215b381d" SourceId="1" SourceUrl="http://localhost:51801/srvReservacion.svc?xsd=xsd2" />
+    <MetadataFile FileName="srvReservacion2.xsd" MetadataType="Schema" ID="d116a3fa-8059-411a-ae3a-da2f967b6d4f" SourceId="1" SourceUrl="http://localhost:51801/srvReservacion.svc?xsd=xsd1" />
+    <MetadataFile FileName="srvReservacion.wsdl" MetadataType="Wsdl" ID="b7dc9f85-b743-469b-9ea7-01c0ddc1004a" SourceId="1" SourceUrl="http://localhost:51801/srvReservacion.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
