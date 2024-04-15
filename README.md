@@ -15,3 +15,6 @@ For this proyect I used:
 - MVC
 - Blazor
 
+---
+[Linkedin](https://www.linkedin.com/in/aalvarezd2201/)
+[Facebook](https://www.facebook.com/anthoalvarezd/)
