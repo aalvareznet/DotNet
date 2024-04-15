@@ -1,6 +1,6 @@
 # DotNet
 Here is my path. The path that will take me to achieve my goals. The path that will give me everything I've ever wanted.
-I hope you like it. And if you have any comment, please let me know. :computer:
+I hope you like it. And if you have any comment, please let me know. :computer: :keyboard: :computer_mouse:
 
 ## ProyectoFinalGrupo2 :fork_and_knife:
 [See here <=-](https://github.com/aalvareznet/DotNet/tree/main/ProyectoFinalGrupo2)
