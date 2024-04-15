@@ -18,3 +18,6 @@ For this proyect I used:
 ---
 [Linkedin](https://www.linkedin.com/in/aalvarezd2201/)
 [Facebook](https://www.facebook.com/anthoalvarezd/)
+
+aalvarez_d@outlook.com | 
+Costa Rica
