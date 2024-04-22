@@ -26,5 +26,12 @@ namespace InterfazUsuario.Controllers
 
             return View();
         }
+        public ActionResult cerrarSesion()
+        {
+            Session["opcMantCR"] = false;
+            Session["opcContactos"] = false;
+            Session["Logueado"] = false;
+            return RedirectToAction("../Login/login");
+        }
     }
 }

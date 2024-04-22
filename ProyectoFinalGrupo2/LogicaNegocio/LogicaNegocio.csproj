@@ -45,10 +45,12 @@
     <Compile Include="Implementaciones\MenuLN.cs" />
     <Compile Include="Implementaciones\MesaLN.cs" />
     <Compile Include="Implementaciones\ReservacionLN.cs" />
+    <Compile Include="Implementaciones\SeguridadLN.cs" />
     <Compile Include="Interfaces\IClienteLN.cs" />
     <Compile Include="Interfaces\IMenuLN.cs" />
     <Compile Include="Interfaces\IMesaLN.cs" />
     <Compile Include="Interfaces\IReservacionLN.cs" />
+    <Compile Include="Interfaces\ISeguridadLN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -41,20 +41,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PA_recPerfilesXUsuario_Result.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RestModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="SeguridadModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>RestModel.tt</DependentUpon>
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>RestModel.tt</DependentUpon>
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagrams.cs">
-      <DependentUpon>RestModel.tt</DependentUpon>
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
     </Compile>
     <Compile Include="TREST_CLIENTES.cs">
       <DependentUpon>RestModel.tt</DependentUpon>
@@ -71,11 +79,21 @@
     <Compile Include="TREST_TIPOMENU.cs">
       <DependentUpon>RestModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="TUSR_PERFILES.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TUSR_USUARIOS.cs">
+      <DependentUpon>SeguridadModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="RestModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>RestModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="SeguridadModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SeguridadModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

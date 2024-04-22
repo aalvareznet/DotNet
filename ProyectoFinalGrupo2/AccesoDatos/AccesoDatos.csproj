@@ -54,10 +54,12 @@
     <Compile Include="Implementaciones\MenuAD.cs" />
     <Compile Include="Implementaciones\MesaAD.cs" />
     <Compile Include="Implementaciones\ReservacionAD.cs" />
+    <Compile Include="Implementaciones\SeguridadAD.cs" />
     <Compile Include="Interfaces\IClienteAD.cs" />
     <Compile Include="Interfaces\IMenuAD.cs" />
     <Compile Include="Interfaces\IMesaAD.cs" />
     <Compile Include="Interfaces\IReservacionAD.cs" />
+    <Compile Include="Interfaces\ISeguridadAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -68,6 +70,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RestModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeguridadModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SeguridadModel.edmx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -88,12 +100,24 @@
     <None Include="RestModel.edmx.diagram">
       <DependentUpon>RestModel.edmx</DependentUpon>
     </None>
+    <EntityDeploy Include="SeguridadModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SeguridadModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="SeguridadModel.edmx.diagram">
+      <DependentUpon>SeguridadModel.edmx</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="RestModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>RestModel.Context.cs</LastGenOutput>
       <DependentUpon>RestModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="SeguridadModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SeguridadModel.edmx</DependentUpon>
+      <LastGenOutput>SeguridadModel.Context.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
