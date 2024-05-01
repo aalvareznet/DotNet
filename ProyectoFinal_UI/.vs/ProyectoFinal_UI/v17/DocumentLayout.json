@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\mesascontrollerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\mesascontrollerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\reservacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\views\\mesas\\obtenermesasui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\mesas\\obtenermesasui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|h:\\progra\\git\\dotnet\\proyectofinal_ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1AD35AD-C15B-4AE9-9511-187D88FE4562}|ProyectoFinal_UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 205,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxIAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T17:01:30.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MesasControllerUI.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MesasControllerUI.cs",
+              "RelativeDocumentMoniker": "Controllers\\MesasControllerUI.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MesasControllerUI.cs",
+              "RelativeToolTip": "Controllers\\MesasControllerUI.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAswJAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:57:44.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAFcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-07T16:48:50.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-07T16:48:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:48:39.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:48:30.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservacionesController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\ReservacionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservacionesController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\ReservacionesController.cs",
+              "RelativeToolTip": "Controllers\\ReservacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T16:42:40.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAqwCAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:30:05.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:38:42.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:38:41.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T02:20:23.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "obtenerMesasUI.cshtml",
+              "DocumentMoniker": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Mesas\\obtenerMesasUI.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mesas\\obtenerMesasUI.cshtml",
+              "ToolTip": "H:\\Progra\\Git\\DotNet\\ProyectoFinal_UI\\Views\\Mesas\\obtenerMesasUI.cshtml",
+              "RelativeToolTip": "Views\\Mesas\\obtenerMesasUI.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T16:58:30.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
