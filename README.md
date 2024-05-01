@@ -16,8 +16,6 @@ For this proyect I used:
 - Blazor
 
 ---
-[Linkedin](https://www.linkedin.com/in/aalvarezd2201/) | 
-[Facebook](https://www.facebook.com/anthoalvarezd/)
 
 aalvarez_d@outlook.com | 
 Costa Rica
@@ -32,3 +30,7 @@ For this proyect I used:
 - LINQ
 - API
 - FluentValidation
+
+---
+[Linkedin](https://www.linkedin.com/in/aalvarezd2201/) | 
+[Facebook](https://www.facebook.com/anthoalvarezd/)
