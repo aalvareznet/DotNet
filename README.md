@@ -15,10 +15,6 @@ For this proyect I used:
 - MVC
 - Blazor
 
----
-
-aalvarez_d@outlook.com | 
-Costa Rica
 
 ## FishesAPI :fish: :whale:
 [See here <=-](https://github.com/aalvareznet/DotNet/tree/main/FishesApi)
@@ -35,3 +31,5 @@ For this proyect I used:
 ---
 [Linkedin](https://www.linkedin.com/in/aalvarezd2201/) | 
 [Facebook](https://www.facebook.com/anthoalvarezd/)
+aalvarez_d@outlook.com | 
+Costa Rica
