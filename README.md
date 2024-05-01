@@ -20,7 +20,7 @@ For this proyect I used:
 aalvarez_d@outlook.com | 
 Costa Rica
 
-##FishesAPI :fish: :whale:
+## FishesAPI :fish: :whale:
 [See here <=-](https://github.com/aalvareznet/DotNet/tree/main/FishesApi)
 
 This is a very simple API, that connects with a Database. Theme in this database is fishes. In this one I created the database as **code first**, something that I've never done before. Database is conected with an API, that holds the CRUD. Then, I created some validatios using FluetValidation
