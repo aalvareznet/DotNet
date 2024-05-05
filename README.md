@@ -28,6 +28,18 @@ For this proyect I used:
 - API
 - FluentValidation
 
+## Membership Management :convenience_store: :hotel: :department_store:
+
+This is a more complex API than the last one. Lets imagine a Backend of a users and membership management app. This is what I belive it would look like. The new thing on this one is that I created a Hash manager. So, when a person creates an user, it would save it as a hash on the database. It also haves a verificator, so when a client wants to login, it would verify that the password is correct. So, for this I used:
+[See here <=-](https://github.com/aalvareznet/DotNet/tree/main/Memberships)
+- C# .Net
+- EntityFramework
+- Little bit of LINQ
+- API
+- FluentValidation
+- Created a Hash manager.
+- DTOs
+
 ---
 [Linkedin](https://www.linkedin.com/in/aalvarezd2201/) | 
 [Facebook](https://www.facebook.com/anthoalvarezd/)
