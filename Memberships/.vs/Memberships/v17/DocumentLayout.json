@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|c:\\users\\tony\\onedrive\\documentos\\c#\\c# proyects\\memberships\\memberships\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|solutionrelative:memberships\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|c:\\users\\tony\\onedrive\\documentos\\c#\\c# proyects\\memberships\\memberships\\memberships.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|solutionrelative:memberships\\memberships.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|c:\\users\\tony\\onedrive\\documentos\\c#\\c# proyects\\memberships\\memberships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|solutionrelative:memberships\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|c:\\users\\tony\\onedrive\\documentos\\c#\\c# proyects\\memberships\\memberships\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|solutionrelative:memberships\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|c:\\users\\tony\\onedrive\\documentos\\c#\\c# proyects\\memberships\\memberships\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB00231D-01F3-41FE-8CBA-BB8FF50A816A}|Memberships\\Memberships.csproj|solutionrelative:memberships\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Memberships",
+              "DocumentMoniker": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Memberships.csproj",
+              "RelativeDocumentMoniker": "Memberships\\Memberships.csproj",
+              "ToolTip": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Memberships.csproj",
+              "RelativeToolTip": "Memberships\\Memberships.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-05T19:20:03.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Memberships\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Memberships\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwFIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:18:48.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Program.cs",
+              "RelativeDocumentMoniker": "Memberships\\Program.cs",
+              "ToolTip": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Program.cs",
+              "RelativeToolTip": "Memberships\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:18:29.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Memberships\\Security\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "Memberships\\Security\\IPasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:22:10.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Memberships\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Tony\\OneDrive\\Documentos\\C#\\C# Proyects\\Memberships\\Memberships\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Memberships\\Security\\PasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:21:16.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
